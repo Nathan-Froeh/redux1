@@ -11,3 +11,10 @@ export const decrement = (num) => {
     payload: num
   }
 }
+
+export const addIdea = idea => {
+  return {
+    type: 'ADD_IDEA',
+    payload: idea
+  }
+}
